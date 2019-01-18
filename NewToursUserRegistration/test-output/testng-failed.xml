@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NewTours User Registration Automation Test Suite]">
+  <test name="Mercury Tours app Test Cases(failed)">
+    <classes>
+      <class name="com.newtours.NewToursUserRegistration.NewUserRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="multipleuserregistration"/>
+          <include name="singleuserregistration"/>
+        </methods>
+      </class> <!-- com.newtours.NewToursUserRegistration.NewUserRegistrationTest -->
+    </classes>
+  </test> <!-- Mercury Tours app Test Cases(failed) -->
+</suite> <!-- Failed suite [NewTours User Registration Automation Test Suite] -->
